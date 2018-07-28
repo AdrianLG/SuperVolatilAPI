@@ -1,0 +1,675 @@
+[debug] [2018-07-26T05:35:50.534Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:35:50.536Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:35:50.536Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:35:50.536Z] Platform:      win32
+[debug] [2018-07-26T05:35:50.536Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:35:50.536Z] Time:          Thu Jul 26 2018 00:35:50 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:35:50.536Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:35:50.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:35:50.551Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:35:50.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:35:50 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:35:51.032Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:35:51.033Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:35:51 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:35:51.514Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:35:51.515Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:35:51 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:35:52.022Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:35:52.867Z] Fetching environment
+[debug] [2018-07-26T05:35:52.869Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:35:52 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:35:54.481Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:35:54.481Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:35:56.504Z] Parsing function triggers
+[info] +  functions: Productos: http://localhost:5000/supervolatilmx/us-central1/Productos
+[info] Shutting down...
+[debug] [2018-07-26T05:38:54.583Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:38:54.585Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:38:54.585Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:38:54.585Z] Platform:      win32
+[debug] [2018-07-26T05:38:54.585Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:38:54.585Z] Time:          Thu Jul 26 2018 00:38:54 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:38:54.585Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:38:54.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:38:54.594Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:38:54.596Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:38:54 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:38:55.000Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:38:55.000Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:38:55 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:38:55.368Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:38:55.369Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:38:55 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:38:56.073Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:38:56.686Z] Fetching environment
+[debug] [2018-07-26T05:38:56.687Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:38:56 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:38:57.070Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:38:57.071Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:38:58.594Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T05:39:56.779Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:39:56.781Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:39:56.781Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:39:56.781Z] Platform:      win32
+[debug] [2018-07-26T05:39:56.781Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:39:56.782Z] Time:          Thu Jul 26 2018 00:39:56 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:39:56.782Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:39:56.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:39:56.791Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:39:56.793Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:39:56 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:39:57.215Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:39:57.216Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:39:57 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:39:57.592Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:39:57.592Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:39:57 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:39:58.005Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:39:58.583Z] Fetching environment
+[debug] [2018-07-26T05:39:58.585Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:39:58 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:39:59.887Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:39:59.887Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:40:01.406Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T05:54:36.649Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:54:36.651Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:54:36.651Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:54:36.651Z] Platform:      win32
+[debug] [2018-07-26T05:54:36.652Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:54:36.652Z] Time:          Thu Jul 26 2018 00:54:36 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:36.652Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:54:36.661Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:54:36.661Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:54:36.663Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-26T05:54:36.663Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/EjDw68XVfG19pl54j6ff_5VGW5uKlsQulo_wC9ZSH4Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 26 2018 00:54:36 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:37.167Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:54:37.174Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:54:37 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:37.859Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:54:37.859Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:54:37 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:38.234Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:54:38.235Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:54:38 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:38.907Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:54:39.477Z] Fetching environment
+[debug] [2018-07-26T05:54:39.478Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:54:39 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:54:41.579Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:54:41.579Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:54:43.115Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-26T05:54:43.472Z] Error during trigger parsing:  Error occurred while parsing your function triggers.
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (G:\AC\SVAPI2\functions\src\categorias.js:5:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\AC\SVAPI2\functions\index.js:9:18)
+    at Module._compile (module.js:652:30)
+[warn] !  functions: Error from emulator. Error occurred while parsing your function triggers.
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (G:\AC\SVAPI2\functions\src\categorias.js:5:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\AC\SVAPI2\functions\index.js:9:18)
+    at Module._compile (module.js:652:30)
+[debug] [2018-07-26T05:54:43.473Z] 
+[info] Shutting down...
+[debug] [2018-07-26T05:55:44.138Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:55:44.139Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:55:44.139Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:55:44.139Z] Platform:      win32
+[debug] [2018-07-26T05:55:44.139Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:55:44.140Z] Time:          Thu Jul 26 2018 00:55:44 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:55:44.140Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:55:44.147Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:55:44.148Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:55:44.149Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:55:44 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:55:44.759Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:55:44.760Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:55:44 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:55:45.158Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:55:45.158Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:55:45 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:55:45.590Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:55:46.454Z] Fetching environment
+[debug] [2018-07-26T05:55:46.456Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:55:46 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:55:46.916Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:55:46.917Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:55:48.457Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T05:57:24.818Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T05:57:24.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T05:57:24.820Z] CLI Version:   4.0.0
+[debug] [2018-07-26T05:57:24.820Z] Platform:      win32
+[debug] [2018-07-26T05:57:24.820Z] Node Version:  v8.11.2
+[debug] [2018-07-26T05:57:24.820Z] Time:          Thu Jul 26 2018 00:57:24 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:57:24.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T05:57:24.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T05:57:24.828Z] > authorizing via signed-in user
+[debug] [2018-07-26T05:57:24.830Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:57:24 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:57:27.228Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:57:27.229Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 00:57:27 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:57:27.657Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:57:27.657Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 00:57:27 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:57:29.239Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T05:57:30.128Z] Fetching environment
+[debug] [2018-07-26T05:57:30.130Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 00:57:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T05:57:30.672Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T05:57:30.672Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T05:57:32.723Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T06:27:44.266Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T06:27:44.268Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T06:27:44.268Z] CLI Version:   4.0.0
+[debug] [2018-07-26T06:27:44.268Z] Platform:      win32
+[debug] [2018-07-26T06:27:44.268Z] Node Version:  v8.11.2
+[debug] [2018-07-26T06:27:44.268Z] Time:          Thu Jul 26 2018 01:27:44 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:27:44.268Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T06:27:44.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T06:27:44.280Z] > authorizing via signed-in user
+[debug] [2018-07-26T06:27:44.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 01:27:44 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:27:45.461Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:27:45.461Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 01:27:45 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:27:45.853Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:27:45.854Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 01:27:45 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:27:46.456Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T06:27:47.006Z] Fetching environment
+[debug] [2018-07-26T06:27:47.008Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 01:27:47 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:27:47.547Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:27:47.547Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T06:27:49.068Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T06:55:11.805Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T06:55:11.807Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T06:55:11.807Z] CLI Version:   4.0.0
+[debug] [2018-07-26T06:55:11.807Z] Platform:      win32
+[debug] [2018-07-26T06:55:11.807Z] Node Version:  v8.11.2
+[debug] [2018-07-26T06:55:11.807Z] Time:          Thu Jul 26 2018 01:55:11 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:11.807Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T06:55:11.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T06:55:11.816Z] > authorizing via signed-in user
+[debug] [2018-07-26T06:55:11.817Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-26T06:55:11.817Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/EjDw68XVfG19pl54j6ff_5VGW5uKlsQulo_wC9ZSH4Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 26 2018 01:55:11 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:12.133Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:55:12.137Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 01:55:12 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:12.613Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:55:12.614Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 01:55:12 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:13.108Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:55:13.109Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 01:55:13 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:13.588Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T06:55:14.187Z] Fetching environment
+[debug] [2018-07-26T06:55:14.188Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 01:55:14 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T06:55:14.622Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T06:55:14.623Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T06:55:16.149Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[debug] [2018-07-26T08:02:29.391Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:02:29.393Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:02:29.393Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:02:29.393Z] Platform:      win32
+[debug] [2018-07-26T08:02:29.393Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:02:29.393Z] Time:          Thu Jul 26 2018 03:02:29 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:29.393Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:02:29.401Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:02:29.401Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:02:29.403Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-26T08:02:29.403Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/EjDw68XVfG19pl54j6ff_5VGW5uKlsQulo_wC9ZSH4Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 26 2018 03:02:29 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:29.695Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:02:29.698Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:02:29 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:30.201Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:02:30.202Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:02:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:30.629Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:02:30.630Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:02:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:31.129Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:02:31.857Z] Fetching environment
+[debug] [2018-07-26T08:02:31.859Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:02:31 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:02:32.340Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:02:32.341Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:02:33.862Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-26T08:02:34.163Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-07-26T08:02:34.164Z] 
+[info] Shutting down...
+[debug] [2018-07-26T08:10:01.945Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:10:01.947Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:10:01.947Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:10:01.947Z] Platform:      win32
+[debug] [2018-07-26T08:10:01.947Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:10:01.947Z] Time:          Thu Jul 26 2018 03:10:01 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:10:01.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:10:01.957Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:10:01.957Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:10:01.959Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:10:01 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:10:02.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:10:02.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:10:02 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:10:02.876Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:10:02.877Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:10:02 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:10:03.376Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:10:03.994Z] Fetching environment
+[debug] [2018-07-26T08:10:03.996Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:10:03 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:10:04.432Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:10:04.432Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:10:05.954Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-26T08:10:06.246Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-07-26T08:10:06.246Z] 
+[info] Shutting down...
+[debug] [2018-07-26T08:11:20.635Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:11:20.637Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:11:20.637Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:11:20.637Z] Platform:      win32
+[debug] [2018-07-26T08:11:20.637Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:11:20.638Z] Time:          Thu Jul 26 2018 03:11:20 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:11:20.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:11:20.648Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:11:20.649Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:11:20.651Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:11:20 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:11:21.053Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:11:21.054Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:11:21 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:11:21.434Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:11:21.435Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:11:21 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:11:21.966Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:11:22.600Z] Fetching environment
+[debug] [2018-07-26T08:11:22.601Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:11:22 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:11:23.871Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:11:23.872Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:11:25.396Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-26T08:11:25.697Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-07-26T08:11:25.698Z] 
+[info] Shutting down...
+[debug] [2018-07-26T08:13:58.473Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:13:58.475Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:13:58.475Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:13:58.475Z] Platform:      win32
+[debug] [2018-07-26T08:13:58.475Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:13:58.475Z] Time:          Thu Jul 26 2018 03:13:58 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:13:58.475Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:13:58.484Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:13:58.484Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:13:58.486Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:13:58 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:13:58.991Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:13:58.992Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:13:58 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:13:59.362Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:13:59.362Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:13:59 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:13:59.816Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:14:00.405Z] Fetching environment
+[debug] [2018-07-26T08:14:00.407Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:14:00 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:00.940Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:14:00.940Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:14:02.528Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-26T08:14:02.816Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-07-26T08:14:02.816Z] 
+[info] Shutting down...
+[debug] [2018-07-26T08:14:21.294Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:14:21.296Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:14:21.296Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:14:21.296Z] Platform:      win32
+[debug] [2018-07-26T08:14:21.296Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:14:21.296Z] Time:          Thu Jul 26 2018 03:14:21 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:21.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:14:21.305Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:14:21.305Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:14:21.307Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:14:21 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:21.721Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:14:21.722Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:14:21 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:22.129Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:14:22.129Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:14:22 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:22.547Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:14:23.109Z] Fetching environment
+[debug] [2018-07-26T08:14:23.110Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:14:23 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:14:23.529Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:14:23.529Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:14:25.050Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T08:33:54.109Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:33:54.110Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:33:54.111Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:33:54.111Z] Platform:      win32
+[debug] [2018-07-26T08:33:54.111Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:33:54.111Z] Time:          Thu Jul 26 2018 03:33:54 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:33:54.111Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:33:54.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:33:54.119Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:33:54.120Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:33:54 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:33:54.692Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:33:54.692Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:33:54 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:33:55.227Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:33:55.227Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:33:55 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:33:55.675Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:33:56.331Z] Fetching environment
+[debug] [2018-07-26T08:33:56.332Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:33:56 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:33:56.776Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:33:56.776Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:33:58.301Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T08:37:41.714Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:37:41.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:37:41.716Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:37:41.716Z] Platform:      win32
+[debug] [2018-07-26T08:37:41.716Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:37:41.716Z] Time:          Thu Jul 26 2018 03:37:41 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:37:41.716Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:37:41.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:37:41.724Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:37:41.726Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:37:41 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:37:43.163Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:37:43.164Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:37:43 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:37:43.556Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:37:43.557Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:37:43 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:37:43.985Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:37:45.801Z] Fetching environment
+[debug] [2018-07-26T08:37:45.803Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:37:45 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:37:46.190Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:37:46.190Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:37:48.669Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T08:42:30.348Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:42:30.350Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:42:30.350Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:42:30.350Z] Platform:      win32
+[debug] [2018-07-26T08:42:30.350Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:42:30.350Z] Time:          Thu Jul 26 2018 03:42:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:42:30.351Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:42:30.358Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:42:30.358Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:42:30.360Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:42:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:42:30.867Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:42:30.867Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:42:30 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:42:31.377Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:42:31.378Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:42:31 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:42:33.002Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:42:34.176Z] Fetching environment
+[debug] [2018-07-26T08:42:34.179Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:42:34 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:42:34.665Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:42:34.665Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:42:37.194Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
+[info] Shutting down...
+[debug] [2018-07-26T08:47:04.597Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T08:47:04.599Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BLACK_ELITE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-07-26T08:47:04.599Z] CLI Version:   4.0.0
+[debug] [2018-07-26T08:47:04.599Z] Platform:      win32
+[debug] [2018-07-26T08:47:04.599Z] Node Version:  v8.11.2
+[debug] [2018-07-26T08:47:04.599Z] Time:          Thu Jul 26 2018 03:47:04 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:47:04.599Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T08:47:04.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T08:47:04.609Z] > authorizing via signed-in user
+[debug] [2018-07-26T08:47:04.610Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:47:04 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:47:05.014Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:47:05.014Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/supervolatilmx/tokens  
+  
+ Thu Jul 26 2018 03:47:05 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:47:05.410Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:47:05.410Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/supervolatilmx  
+  
+ Thu Jul 26 2018 03:47:05 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:47:05.852Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\AC\SVAPI2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-26T08:47:06.414Z] Fetching environment
+[debug] [2018-07-26T08:47:06.416Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760971293259:getServerAppConfig  
+  
+ Thu Jul 26 2018 03:47:06 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-26T08:47:06.762Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T08:47:06.762Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-26T08:47:08.283Z] Parsing function triggers
+[info] +  functions: API: http://localhost:5000/supervolatilmx/us-central1/API
